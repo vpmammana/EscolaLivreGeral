@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt">
+<meta charset="UTF-8">
+<title>Escola Brasil - Lista de Presença</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="">
+<head>
+    <script>
+
+        function postJSON(url, objeto){
+            return fetch(
+                url,
+                {
+                    method: "POST",
+                    headers:{
+                        "Accept":"application/json",
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify(objeto)
+                })
+            .then(resposta => {
+                return resposta.text();                
+            })
+            .catch( error => {
+                throw error;
+            });
+        }
+
+        window.onload = () => {
+            postJSON ("http://localhost/ListaPresenca/recebe_lista_presenca.php",[{data:new Date().toISOString(),conteudo:"fernando-123"}]).then(texto => {
+                console.log(texto);
+            });   
+            
+        }        
+    </script>
+</head>
+<body>
+</body>
+</html>

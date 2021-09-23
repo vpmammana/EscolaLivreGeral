@@ -1,0 +1,41 @@
+38,47d37
+<         //Limpar dados
+<         {
+<           document.querySelector("#limparDados").addEventListener("click", ()=> {
+<             if (confirm("Deseja limpar os dados salvos localmente?")){
+<               this.listaQRCode = [];
+<               localStorage.setItem("listaQRCode", JSON.stringify(this.listaQRCode));
+<             } 
+<           });
+<         }
+<         
+197c187
+<         li.innerText = `${this.dataEmStringCampoData(agora)} --- ${valorQRCode}`;        
+---
+>         li.innerText = `${agora.toLocaleString()} --- ${valorQRCode}`;        
+200c190
+<         this.listaQRCode.push ({data:this.dataEmStringCampoData(agora), conteudo:valorQRCode, enviado:false});
+---
+>         this.listaQRCode.push ({data:agora.toLocaleString(), conteudo:valorQRCode, enviado:false});
+243c233
+<     let nomeArquivoCSV = `${this.dataEmStringNomeArquivo(new Date())}_lista-presenca.csv`;
+---
+>     let nomeArquivoCSV = `${this.dataEmString(new Date())}_lista-presenca.csv`;
+254c244
+<   dataEmStringNomeArquivo(data){    
+---
+>   dataEmString(data){    
+262,271c252
+< 
+<   dataEmStringCampoData(data){    
+<     let dia = String(data.getDate()).padStart(2, '0');
+<     let mes = String(data.getMonth() + 1).padStart(2, '0');
+<     let ano = data.getFullYear();
+<     let hora = String(data.getHours()).padStart(2, '0');
+<     let minuto = String(data.getMinutes()).padStart(2, '0');
+<     return `${ano}-${mes}-${dia} ${hora}:${minuto}`;
+<   }
+< }
+---
+> }
+\ Nenhum caractere de nova linha no final do arquivo

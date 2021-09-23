@@ -1,0 +1,9 @@
+Para gerar a base de dados é preciso criar uma base no shell do mysql com:
+
+CREATE DATABASE ESCOLAX;
+
+GRANT ALL PRIVILEGES ON ESCOLAX.* to `user`@`localhost`
+
+Depois, na linha de comando, é preciso fazer:
+
+mysql -u root -pSENHA escolax < gera_escola.sql

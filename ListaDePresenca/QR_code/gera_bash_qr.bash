@@ -1,0 +1,1 @@
+sudo mysql -u root -p escolax -N -e "select id_chave_registrado, nome_registrado from registrados" | awk '{print "qrencode -m 10 -o id_"$2".png \"http:/observatorio.wash.net.br/dev_vitor/EscolaBrasil/registra_presenca.php?nome="$2"&id="$1"\""}'
