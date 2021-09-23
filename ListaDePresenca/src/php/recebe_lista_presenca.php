@@ -1,10 +1,8 @@
 <?php    
     $lista_presenca_string = file_get_contents('php://input');
     $lista_presenca = json_decode($lista_presenca_string);    
-    
-    $usuario = "vitor";
-    //TODO: puxar senha da varíavel de ambiente    
-    $senha = "toninho13";
+
+	include "identifica.php";
     $base = "escolax";
     
 	$fp = fopen('data.txt','w');
