@@ -6,6 +6,8 @@ Fernando Bonafé
 
 Victor Mammana
 
+Veja um exemplo do código usado em: https://minhazav.medium.com/qr-code-scanner-using-html-and-javascript-3895a0c110cd
+
 Este projeto nasceu de uma demanda trazida pela Profa. Thatiane Verni Lopes de Araújo, Diretora da Escola Roberto Panico, de Londrina, para Victor Pellegrini Mammana.
 
 Ela queria melhorar a eficiẽncia do controle de presença de alunos na escola, durante a pandemia. 
