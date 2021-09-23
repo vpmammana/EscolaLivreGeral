@@ -1,5 +1,5 @@
 <?php
-$username="u_suario";
-$pass="s_enha";
+$username="usua_rio";
+$pass="senh_a";
 ?>
 
