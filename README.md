@@ -1,7 +1,9 @@
 # EscolaLivre é um FORK de EscolaBrasil
 
 Autores: Thatiane Verni Lopes Araujo
+
 Fernando Bonafé
+
 Victor Mammana
 
 Este projeto nasceu de uma demanda trazida pela Profa. Thatiane Verni Lopes de Araújo, Diretora da Escola Roberto Panico, de Londrina, para Victor Pellegrini Mammana.
