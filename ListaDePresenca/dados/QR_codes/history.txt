@@ -1,0 +1,696 @@
+    1  ping www.uol.com.br
+    2  ps -aux | grep -i select
+    3  kill 48597
+    4  sudo su
+    5  whoami
+    6  exit
+    7  ping 8.8.8.8
+    8  ping
+    9  ping 8.8.8.8
+   10  sudo apt update
+   11  sudo apt install apache2
+   12  sudu ufw app list
+   13  sudo ufw app list
+   14  sudo ufw allow 'Apache Full'
+   15  sudo ufw status
+   16  sudo systemctl status apache2
+   17  hostname -I
+   18  curl -4 icanhazip.com
+   19  udo apt install mysql-server
+   20  sudo apt install mysql-server
+   21  sudo mysql_secure_installation
+   22  mysql -u root -p
+   23  sudo mysql -u root -p
+   24  history
+   25  sudo apt-get install apache2 php libapache2-mod-php
+   26  php
+   27  cd /var/www/html/
+   28  ls
+   29  mkdir Teste
+   30  sudo mkdir Teste
+   31  ls
+   32  ls -al
+   33  sudo chown -R smejacarei:www-data Teste/
+   34  ls -al
+   35  cd Teste
+   36  vim
+   37  sudo apt install vim
+   38  vim jean.php
+   39  vim jean.html
+   40  sudo apt-get install git-all
+   41  cd ..
+   42  git clone https://github.com/vpmammana/EscolaLivre.git
+   43  sudo apt install git
+   44  git clone https://github.com/vpmammana/EscolaLivre.git
+   45  sudo apt install git
+   46  sudo apt-get install git-all
+   47  sudo apt-get install --fix-missing
+   48  sudo apt install git
+   49  sudo apt-get install dh-autoreconf libcurl4-gnutls-dev libexpat1-dev   gettext libz-dev libssl-dev
+   50  git
+   51  sudo apt install git
+   52  sudo apt install update
+   53  cat /etc/os-release. lsb_release -a. hostnamectl.
+   54  lsb_release -a
+   55  cat /etc/apt/sources.list:
+   56  ls -l /etc/apt/sources.list.d/ 
+   57  sudo apt-get update
+   58  sudo apt install update
+   59  sudo apt-get install git-all
+   60  git
+   61  git clone https://github.com/vpmammana/EscolaLivre.git
+   62  sudo git clone https://github.com/vpmammana/EscolaLivre.git
+   63  cd EscolaLivre/
+   64  ls
+   65  cd ListaDePresenca/
+   66  ls
+   67  cd src/
+   68  ls
+   69  cd php
+   70  ls
+   71  cd ..
+   72  cd sql
+   73  ls
+   74  sudo mysql -u root -p 
+   75  sudo mysql -u root -p escolax < gera_escola.sql
+   76  cd ..
+   77  vim php
+   78  cd php
+   79  ls
+   80  vim identifica.php 
+   81  sudo vim identifica.php 
+   82  vim identifica_barra_hiphen.php 
+   83  sudo vim identifica_barra_hiphen.php 
+   84  mkdir autophp
+   85  sudo mkdir autophp
+   86  ls -al
+   87  sudo chown -R smejacarei:www-data autophp/
+   88  cd autophp/
+   89  ls
+   90  cd ..
+   91  ls -al
+   92  cd ..
+   93  cd ../../../
+   94  sudo chown -R smejacarei:www-data EscolaLivre
+   95  ls -al
+   96  cd -
+   97  cd php/
+   98  vim super_interfaces_sem_pass.php 
+   99  ls -al
+  100  ps -aux | grep -i apache
+  101  ls
+  102  ls -al
+  103  vim super_interfaces_sem_pass.php 
+  104  vim teste.php 
+  105  ls -al
+  106  sudo chown smejacarei:smejacarei super_interfaces_sem_pass.php 
+  107  php super_interfaces_sem_pass.php 
+  108  sudo apt-get install mysql-server
+  109  sudo apt-get install php libapache2-mod-php php-mysql 
+  110  history
+  111  history | grep system
+  112  sudo systemctl restart apache2
+  113  cd autophp/
+  114  ls
+  115  cp ../identifica* .
+  116  ls identifica.php 
+  117  vim identifica.php 
+  118  ls
+  119  cd ..
+  120  ls
+  121  cd autophp/
+  122  ls
+  123  ls -al
+  124  sudo chown -R smejacarei:www-data *
+  125  ls -al
+  126  sudo chown -R www-dataw:www-data *
+  127  sudo chown -R smejacarei:www-data *
+  128  ls identifica
+  129  sudo chown -R www-data:www-data *
+  130  ls
+  131  cd ..
+  132  ls -al
+  133  sudo chown -R www-data:www-data *
+  134  ls
+  135  clear
+  136  ls
+  137  vim 8_firefox_escolax_pdf_hiper.php 
+  138  vim search_documentos_pelo_nome.php 
+  139  ls -al
+  140  vim search_documentos_pelo_nome.php 
+  141  ls
+  142  vim identifica.php 
+  143  vim identifica_barra_hiphen.php 
+  144  vim search_documentos_pelo_nome.php 
+  145  sudo mysql -u root -p escolax
+  146  vim search_documentos_pel
+  147  vim search_documentos_pelo_nome.php 
+  148  vim 8_firefox_escolax_pdf_hiper.php 
+  149  vim search_documentos_pelo_nome.php 
+  150  vim 8_firefox_escolax_pdf_hiper.php 
+  151  vim search_documentos_pelo_nome.php 
+  152  sudo vim search_documentos_pelo_nome.php 
+  153  php search_documentos_pelo_nome.php 
+  154  sudo vim search_documentos_pela_cidade.php 
+  155  vim 8_firefox_escolax_pdf_hiper.php 
+  156  sudo vim 8_firefox_escolax_pdf_hiper.php 
+  157  cp search_documentos_pela_cidade.php search_documentos_pela_turma.php
+  158  vim search_documentos_pela_turma.php 
+  159  sudo vim 8_firefox_escolax_pdf_hiper.php 
+  160  vim search_documentos_pela_turma.php 
+  161  sudo vim search_documentos_pelo_nome.php 
+  162  vim search_documentos_pela_turma.php 
+  163  ls
+  164  ls -al
+  165  sudo chown -R www-data:www-data search_documentos_pela_turma.php 
+  166  mv search_documentos_pela_cidade.php search_documentos_pela_data.php
+  167  vim search_documentos_pela_data.php 
+  168  sudo vim search_documentos_pela_data.php 
+  169  sudo vim 8_firefox_escolax_pdf_hiper.php 
+  170  sudo vim search_documentos_pela_data.php 
+  171  sudo vim 8_firefox_escolax_pdf_hiper.php 
+  172  apt-get update
+  173  sudo apt-get install apache2 openssl
+  174  apt-get update --fix-missing
+  175  sudo apt-get update --fix-missing
+  176  sudo apt-get install apache2 openssl
+  177  a2enmod ssl
+  178  a2enmod rewrite
+  179  sudo vim /etc/apache2/apache2.conf 
+  180  mkdir /etc/apache2/certificate
+  181  cd /etc/apache2/certificate
+  182  sudo mkdir /etc/apache2/certificate
+  183  sudo cd /etc/apache2/certificate
+  184  cd /etc/apache2/certificate
+  185  openssl req -new -newkey rsa:4096 -x509 -sha256 -days 365 -nodes -out apache-certificate.crt -keyout apache.key
+  186  sudo openssl req -new -newkey rsa:4096 -x509 -sha256 -days 365 -nodes -out apache-certificate.crt -keyout apache.key
+  187  ifconfig
+  188  mkdir /etc/apache2/certificate
+  189  cd /etc/apache2/certificate
+  190  service apache2 restart
+  191  vim /etc/apache2/sites-enabled/000-default.conf
+  192  sudo vim /etc/apache2/sites-enabled/000-default.conf
+  193  service apache2 restart
+  194  sudo vim /etc/apache2/sites-enabled/000-default.conf
+  195  service apache2 restart
+  196  systemctl status apache2.service
+  197  journalctl -xe
+  198  sudo service apache2 restart
+  199  ls
+  200  cd ..
+  201  ls
+  202  apache2ctl configtest
+  203  cd sites-enabled/
+  204  vim 000-default.conf 
+  205  sudo a2enmod ssl
+  206  systemctl status apache2.service
+  207  sudo apt-get install mod_ssl
+  208  apache2ctl configtest
+  209  systemctl status apache2.service
+  210  a2enmod ssl
+  211  sudo a2enmod rewrite
+  212  systemctl status apache2.service
+  213  cd ..
+  214  sudo vim apache2.conf 
+  215  cd sites-enabled/
+  216  sudo vim 000-default.conf 
+  217  systemctl status apache2.service
+  218  sudo vim 000-default.conf 
+  219  systemctl status apache2.service
+  220  apache2ctl configtest
+  221  sudo apache2ctl configtest
+  222  sudo vim 000-default.conf 
+  223  sudo apache2ctl configtest
+  224  systemctl status apache2.service
+  225  cd ..
+  226  cd certificate/
+  227  mkdir /etc/apache2/certificate
+  228  cd /etc/apache2/certificate
+  229  sudo openssl req -new -newkey rsa:4096 -x509 -sha256 -days 365 -nodes -out apache-certificate.crt -keyout apache.key
+  230  systemctl status apache2.service
+  231  sudo openssl req -new -newkey rsa:4096 -x509 -sha256 -days 365 -nodes -out apache-certificate.crt -keyout apache.key
+  232  systemctl status apache2.service
+  233  sudo openssl req -new -newkey rsa:4096 -x509 -sha256 -days 365 -nodes -out apache-certificate.crt -keyout apache.key
+  234  systemctl status apache2.service
+  235  cd ..
+  236  cd sites-enabled/
+  237  ls
+  238  vim 000-default.conf 
+  239  sudo vim 000-default.conf 
+  240  systemctl status apache2.service
+  241  cd ..
+  242  ls
+  243  sudo vim apache2.conf 
+  244  systemctl status apache2.service
+  245  systemctl restart apache2.service
+  246  sudo vim apache2.conf 
+  247  systemctl restart apache2.service
+  248  cd sites-enabled/
+  249  vim 000-default.conf 
+  250  sudo vim 000-default.conf 
+  251  ssh vitor@200.130.81.81
+  252  cat 000-default.conf 
+  253  sudo vim 000-default.conf 
+  254  systemctl restart apache2.service
+  255  cd /var/www/html/EscolaLivre/ListaDePresenca/src/php/
+  256  ls
+  257  vim recebe_lista_presenca.php
+  258  vim identifica.php 
+  259  sudo su
+  260  J4c4r31
+  261  top
+  262  sudo su
+  263  exit
+  264  cd /var/www/html/
+  265  ls
+  266  cd EscolaLivre/
+  267  ls
+  268  cd ListaDePresenca/
+  269  cd src/
+  270  cd php
+  271  ls
+  272  vim search_documentos_pela_turma.php 
+  273  vim search_documentos_pela_data.php 
+  274  vim recebe_lista_presenca.php
+  275  vim identifica.php 
+  276  ls
+  277  vim recebe_lista_presenca.php
+  278  vim recebe_lista_presenca.php.backup_2021_09_22 
+  279  vim recebe_lista_presenca.php
+  280  sudo vim recebe_lista_presenca.php
+  281  vim recebe_lista_presenca.php
+  282  sudo vim recebe_lista_presenca.php
+  283  vim identifica.php 
+  284  vim recebe_lista_presenca.php
+  285  sudo vim recebe_lista_presenca.php
+  286  cd ~
+  287  ls
+  288  cd 
+  289  cd Área\ de\ Trabalho/
+  290  ls
+  291  vim Aluizio.csv 
+  292  cd /var/www/html/
+  293  cd EscolaLivre/
+  294  cd ListaDePresenca/
+  295  cd src/
+  296  cd php/
+  297  ls
+  298  git status
+  299  git add search_documentos_pel*
+  300  git commit -m "Ajuste do Giramundonics para permitir busca por turma"
+  301  git push
+  302  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
+  303  git push
+  304  git status
+  305  git add search_documentos_pel*
+  306  git commit -m "Ajuste do Giramundonics para permitir busca por turma Segunda vez"
+  307  git config --global user.email "vpmammana@gmail.com"
+  308  git config --global user.name "Your Name"
+  309  git commit -m "Ajuste do Giramundonics para permitir busca por turma Terceira tentativa"
+  310  git push
+  311  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
+  312  git push
+  313  git status
+  314  ls
+  315  git push
+  316  cd /var/www/html/EscolaLivre/ListaDePresenca/
+  317  ls
+  318  cd src/
+  319  cd ..
+  320  cd dados/
+  321  ls
+  322  cp ~/Área\ de\ Trabalho/Aluizio.csv ./alunos_aluizio.csv
+  323  ls
+  324  cat alunos_aluizio.csv 
+  325  vim gera_inserts.bash
+  326  car alunos_aluizio.csv 
+  327  vim gera_inserts.bash
+  328  cat alunos_aluizio.csv 
+  329  clear
+  330  cat alunos_aluizio.csv 
+  331  vim gera_inserts.bash 
+  332  sudo mysql -u root -p escolax
+  333  vim gera_inserts.bash 
+  334  chmod u+x gera_inserts.bash 
+  335  ./gera_inserts.bash 
+  336  vim gera_inserts.bash 
+  337  ./gera_inserts.bash 
+  338  vim gera_inserts.bash 
+  339  ./gera_inserts.bash 
+  340  vim gera_inserts.bash 
+  341  ./gera_inserts.bash 
+  342  vim gera_inserts.bash 
+  343  ./gera_inserts.bash 
+  344  vim gera_inserts.bash 
+  345  cat alunos_aluizio.csv 
+  346  cat alunos_aluizio.csv | awk '{print $1}'
+  347  cat alunos_aluizio.csv | awk '{print $2}'
+  348  cat alunos_aluizio.csv | awk '{print $3}'
+  349  cat alunos_aluizio.csv | awk '{print $5}'
+  350  cat alunos_aluizio.csv 
+  351  cat alunos_aluizio.csv | awk '{print $1}'
+  352  cat alunos_aluizio.csv | awk 'BEGIN{FS=";";}{print $1}'
+  353  cat alunos_aluizio.csv 
+  354  cat alunos_aluizio.csv | awk 'BEGIN{FS=";";}{print $2}'
+  355  cat alunos_aluizio.csv | awk 'BEGIN{FS=";";}{print $3}'
+  356  cat alunos_aluizio.csv | awk 'BEGIN{FS=";";}{print $4}'
+  357  cat alunos_aluizio.csv | awk 'BEGIN{FS=";";}{print $6}'
+  358  vim alunos_aluizio.csv 
+  359  vim gera_inserts.bash 
+  360  ./gera_inserts.bash 
+  361  sudo mysql -u root -p escolax
+  362  cat gera_inserts.bash 
+  363  ./gera_inserts.bash > executa_insert.bash
+  364  chmod u+x executa_insert.bash 
+  365  vim executa_insert.bash 
+  366  sudo mysql -u root -p escolax < executa_insert.bash 
+  367  sudo mysql -u root -p escolax 
+  368  vim executa_insert.bash 
+  369  cat executa_insert.bash
+  370  cat executa_insert.bash | unique
+  371  cat executa_insert.bash | sort
+  372  cat executa_insert.bash | sort -u
+  373  cat executa_insert.bash
+  374  cat executa_insert.bash | sort -u
+  375  cat executa_insert.bash | sort -u > executa_inserts_turmas_unico.sql
+  376  vim executa_inserts_turmas_unico.sql 
+  377  cd ..
+  378  cd src/
+  379  cd sql
+  380  vim gera_escola.sql
+  381  cd ..
+  382  cd dados/
+  383  ls
+  384  cat alunos_aluizio.csv 
+  385  vim gera_inserts.bash 
+  386  cp gera_inserts.bash gera_inserts_turma.bash 
+  387  cp gera_inserts_turma.bash gera_inserts_nome.bash
+  388  vim gera_inserts_nome.bash 
+  389  ls -al
+  390  ./gera_inserts_nome.bash 
+  391  vim gera_inserts_nome.bash 
+  392  ./gera_inserts_nome.bash 
+  393  vim alunos_aluizio.csv 
+  394  sudo vim alunos_aluizio.csv 
+  395  ls -al
+  396  sudo chown root:root alunos_aluizio.csv 
+  397  sudo vim alunos_aluizio.csv 
+  398  cp alunos_aluizio.csv alunos_aluizio_root.csv
+  399  sudo cp alunos_aluizio.csv alunos_aluizio_root.csv
+  400  sudo vim alunos_aluizio_root.csv 
+  401  ls
+  402  ls -al
+  403  chmod u+w alunos_aluizio.csv 
+  404  sudo chmod u+w alunos_aluizio.csv 
+  405  sudo vim alunos_aluizio.csv 
+  406  ./gera_inserts_nome.bash 
+  407  ls -al
+  408  whoami
+  409  ./gera_inserts_nome.bash 
+  410  sudo su
+  411  sudo chown smejacarei:smejacarei alunos_aluizio.csv 
+  412  ./gera_inserts_nome.bash 
+  413  vim gera_inserts_nome.bash 
+  414  vim alunos_aluizio.csv 
+  415  ls
+  416  rm alunos_aluizio_root.csv 
+  417  ls
+  418  ./gera_inserts_nome.bash > executa_insert_nomes.sql
+  419  vim executa_insert_nomes.sql 
+  420  history 
+  421  vim executa_insert_nomes.sql 
+  422  history | grep mysql
+  423  history
+  424  history | grep mysql
+  425  ls -al
+  426  ls
+  427  vim executa_insert_nomes.sql 
+  428  cd ../src/sql
+  429  vim gera_escola.sql
+  430  sudo vim gera_escola.sql
+  431  cd ..
+  432  cd dados/
+  433  ls
+  434  cp gera_inserts_nome.bash gera_inserts_turmas_registrados.bash
+  435  vim gera_inserts_turmas_registrados.bash 
+  436  ls
+  437  cd ..
+  438  find * | grep -i frag
+  439  cd ListaDePresenca/
+  440  cd dados/
+  441  cp ../frag_insert_turma_registrado.sql .
+  442  ls
+  443  mv ../frag_insert_turma_registrado.sql .
+  444  ls
+  445  vim gera_inserts_turmas_registrados.bash 
+  446  chmod u+x gera_inserts_turmas_registrados.bash 
+  447  ./gera_inserts_turmas_registrados.bash 
+  448  vim gera_inserts_turma.bash 
+  449  vim gera_inserts_turmas_registrados.bash 
+  450  ./gera_inserts_turmas_registrados.bash 
+  451  ./gera_inserts_turmas_registrados.bash > executa_inserts_turmas_registrados.sql
+  452  vim executa_inserts_turmas_registrados.sql 
+  453  cd ..
+  454  cd src
+  455  cd sql
+  456  vim gera_escola.sql
+  457  history | grep mysql
+  458  sudo mysql -u root -p escolax < gera_escola.sql
+  459  sed 'y/áÁàÀãÃâÂéÉêÊíÍóÓõÕôÔúÚçÇ/aAaAaAaAeEeEiIoOoOoOuUcC/' < gera_escola.sql > gera_escola_sem_acentuacao.txt
+  460  sudo mysql -u root -p escolax < gera_escola_sem_acentuacao.txt 
+  461  vim gera_escola_sem_acentuacao.txt 
+  462  vim executa_inserts_turmas_registrados.sql :q
+  463  sudo vim gera_escola_sem_acentuacao.txt 
+  464  mv gera_escola_sem_acentuacao.txt gera_escola_sem_acentuacao.sql
+  465  sudo vim gera_escola_sem_acentuacao.txt 
+  466  sudo vim gera_escola_sem_acentuacao.sql
+  467  sudo mysql -u root -p escolax < gera_escola_sem_acentuacao.sql 
+  468  sudo vim gera_escola_sem_acentuacao.sql
+  469  cd ..
+  470  cd dados
+  471  vim alunos_aluizio.csv 
+  472  cd ..
+  473  cd src
+  474  cd sql
+  475  vim gera_escola_sem_acentuacao.sql 
+  476  cd ..
+  477  cd dados/
+  478  vim gera_inserts_nome.bash 
+  479  cat alunos_aluizio.csv | awk 'BEGIN{FS=";";}{print $3}'
+  480  cat alunos_aluizio.csv 
+  481  cat alunos_aluizio.csv | awk 'BEGIN{FS=";";}{print $3}'
+  482  vim gera_inserts_nome.bash 
+  483  cd ../src/sql/
+  484  vim gera_escola_sem_acentuacao.sql 
+  485  cd -
+  486  vim gera_inserts_nome.bash 
+  487  ./gera_inserts_nome.bash 
+  488  :q
+  489  vim gera_inserts_nome.bash 
+  490  ./gera_inserts_nome.bash 
+  491  cd -
+  492  mv gera_escola.sql gera_escola.sql.back_up_2021_09_24
+  493  mv gera_escola_sem_acentuacao.sql 
+  494  vim gera_escola_sem_acentuacao.sql 
+  495  cd -
+  496  ./gera_inserts_nome.bash > executa_insert_nomes.sql 
+  497  vim executa_insert_nomes.sql 
+  498  cd -
+  499  ls
+  500  sudo vim gera_escola_sem_acentuacao.sql 
+  501  history | grep mysql
+  502  sudo mysql -u root -p escolax < gera_escola_sem_acentuacao.sql 
+  503  cat  gera_escola_sem_acentuacao.sql 
+  504  history | grep -i sed
+  505  sed 'y/áÁàÀãÃâÂéÉêÊíÍóÓõÕôÔúÚçÇ/aAaAaAaAeEeEiIoOoOoOuUcC/' < gera_escola_sem_acentuacao.sql > gera_escola_sem_acentuacao2.txt
+  506  mv gera_escola_sem_acentuacao2.txt gera_escola_sem_acentuacao.sql 
+  507  vim ~/.bashrc 
+  508  bash
+  509  touch teste.teste
+  510  cp gera_escola.sql.back_up_2021_09_24 teste.teste
+  511  vim ~/.bashrc 
+  512  history
+  513  sudo mysql -u root -p escolax < gera_escola_sem_acentuacao.sql 
+  514  vim gera_escola_sem_acentuacao.sql 
+  515  sudo mysql -u root -p escolax < gera_escola_sem_acentuacao.sql 
+  516  vim gera_escola_sem_acentuacao.sql 
+  517  sudo mysql -u root -p escolax < gera_escola_sem_acentuacao.sql 
+  518  vim gera_escola_sem_acentuacao.sql 
+  519  sudo mysql -u root -p escolax < gera_escola_sem_acentuacao.sql 
+  520  vim gera_escola_sem_acentuacao.sql 
+  521  sudo mysql -u root -p escolax < gera_escola_sem_acentuacao.sql 
+  522  vim gera_escola_sem_acentuacao.sql 
+  523  sudo mysql -u root -p escolax < gera_escola_sem_acentuacao.sql 
+  524  vim gera_escola_sem_acentuacao.sql 
+  525  cd ../../dados/
+  526  vim executa_insert_nomes.sql 
+  527  cat executa_insert_nomes.sql 
+  528  cat executa_insert_nomes.sql | wc -l
+  529  cat executa_insert_nomes.sql | sort -u | wc -l
+  530  cd -
+  531  vim executa_insert_nomes.sql 
+  532  vim gera_escola_sem_acentuacao.sql 
+  533  sudo mysql -u root -p escolax < gera_escola_sem_acentuacao.sql 
+  534  vim gera_escola_sem_acentuacao.sql 
+  535  sudo mysql -u root -p escolax < gera_escola_sem_acentuacao.sql 
+  536  sudo mysql -u root -p escolax 
+  537  sudo apt-get install qrencode
+  538  sudo mysql -u root -p escolax -e "select * from turmas"
+  539  ssh -4 vitor@hpo3yjcd.info
+  540  vim gera_qr.bash
+  541  chmod u+x gera_qr.bash 
+  542  ./gera_qr.bash 
+  543  vim gera_qr.bash
+  544  sudo mysql -u root -pJ4c4r31 escolax -N -e "select id_chave_registrado, nome_registrado, nome_turma from registrados, turmas, turmas_registrados where id_chave_registrado=id_registrado and id_chave_turma=id_turma" 
+  545  vim gera_qr.bash
+  546  ./gera_qr.bash 
+  547  sudo mysql -u root -pJ4c4r31 escolax -N -e "select id_chave_registrado, nome_registrado, nome_turma from registrados, turmas, turmas_registrados where id_chave_registrado=id_registrado and id_chave_turma=id_turma" 
+  548  ./gera_qr.bash 
+  549  vim gera_qr.bash
+  550  sudo mysql -u root -pJ4c4r31 escolax -N -e "select id_chave_registrado, nome_registrado, nome_turma from registrados, turmas, turmas_registrados where id_chave_registrado=id_registrado and id_chave_turma=id_turma"  | awk 'BEGIN{FS="|";}{print $1}'
+  551  sudo mysql -u root -pJ4c4r31 escolax -N -e "select id_chave_registrado, nome_registrado, nome_turma from registrados, turmas, turmas_registrados where id_chave_registrado=id_registrado and id_chave_turma=id_turma"  | awk 'BEGIN{FS="|";}{print $2}'
+  552  sudo mysql -u root -pJ4c4r31 escolax -N -e "select id_chave_registrado, nome_registrado, nome_turma from registrados, turmas, turmas_registrados where id_chave_registrado=id_registrado and id_chave_turma=id_turma"  | awk 'BEGIN{FS="|";}{print $3}'
+  553  sudo mysql -u root -pJ4c4r31 escolax -N -e "select id_chave_registrado, nome_registrado, nome_turma from registrados, turmas, turmas_registrados where id_chave_registrado=id_registrado and id_chave_turma=id_turma"  | awk 'BEGIN{FS="\|";}{print $3}'
+  554  sudo mysql -u root -pJ4c4r31 escolax -N -e "select id_chave_registrado, nome_registrado, nome_turma from registrados, turmas, turmas_registrados where id_chave_registrado=id_registrado and id_chave_turma=id_turma"  | awk 'BEGIN{FS="\|";}{print $1}'
+  555  sudo mysql -u root -pJ4c4r31 escolax -N -e "select id_chave_registrado, nome_registrado, nome_turma from registrados, turmas, turmas_registrados where id_chave_registrado=id_registrado and id_chave_turma=id_turma"  | awk 'BEGIN{FS="";}{print $1}'
+  556  ./gera_qr.bash 
+  557  sudo mysql -u root -pJ4c4r31 escolax -N -e "select id_chave_registrado, nome_registrado, nome_turma from registrados, turmas, turmas_registrados where id_chave_registrado=id_registrado and id_chave_turma=id_turma" 
+  558  :q
+  559  vim gera_qr.bash 
+  560  ./gera_qr.bash 
+  561  sudo mysql -u root -pJ4c4r31 escolax -N -e "select id_chave_registrado, nome_registrado, nome_turma from registrados, turmas, turmas_registrados where id_chave_registrado=id_registrado and id_chave_turma=id_turma"  | sed 's/|/,/g'
+  562  sudo mysql -u root -pJ4c4r31 escolax -N -e "select id_chave_registrado, nome_registrado, nome_turma from registrados, turmas, turmas_registrados where id_chave_registrado=id_registrado and id_chave_turma=id_turma"  | sed 's/0/#/g'
+  563  sudo mysql -u root -pJ4c4r31 escolax -N -e "select id_chave_registrado, nome_registrado, nome_turma from registrados, turmas, turmas_registrados where id_chave_registrado=id_registrado and id_chave_turma=id_turma"  | sed 's/\|/#/g'
+  564  sudo mysql -u root -pJ4c4r31 escolax -N -e "select id_chave_registrado, nome_registrado, nome_turma from registrados, turmas, turmas_registrados where id_chave_registrado=id_registrado and id_chave_turma=id_turma"  | sed 's/\|/,/g'
+  565  sudo mysql -u root -pJ4c4r31 escolax -N -e "select id_chave_registrado, nome_registrado, nome_turma from registrados, turmas, turmas_registrados where id_chave_registrado=id_registrado and id_chave_turma=id_turma"  | sed 's/ /,/g'
+  566  sudo mysql -u root -pJ4c4r31 escolax -N -e "select id_chave_registrado, nome_registrado, nome_turma from registrados, turmas, turmas_registrados where id_chave_registrado=id_registrado and id_chave_turma=id_turma"  | sed 's/\t//g'
+  567  sudo mysql -u root -pJ4c4r31 escolax -N -e "select id_chave_registrado, nome_registrado, nome_turma from registrados, turmas, turmas_registrados where id_chave_registrado=id_registrado and id_chave_turma=id_turma"  | sed 's/\t/ /g'
+  568  sudo mysql -u root -pJ4c4r31 escolax -N -e "select id_chave_registrado, nome_registrado, nome_turma from registrados, turmas, turmas_registrados where id_chave_registrado=id_registrado and id_chave_turma=id_turma"  | sed 's/\t/,/g'
+  569  ./gera_qr.bash 
+  570  vim gera_qr.bash 
+  571  ./gera_qr.bash 
+  572  vim gera_qr.bash 
+  573  ./gera_qr.bash 
+  574  vim gera_qr.bash 
+  575  ./gera_qr.bash 
+  576  ./gera_qr.bash > executa_gera_qr.bash
+  577  vim executa_gera_qr.bash 
+  578  cd ../../dados/
+  579  cp ../src/sql/executa_gera_qr.bash .
+  580  vim ~/.bashrc 
+  581  bash
+  582  cp ../src/sql/executa_gera_qr.bash .
+  583  ls
+  584  mkdir QR_codes
+  585  mv executa_gera_qr.bash ./QR_codes/
+  586  cd QR_codes/
+  587  ls
+  588  chmod u+x executa_gera_qr.bash 
+  589  ./executa_gera_qr.bash 
+  590  ls
+  591  ls -al | wc -l
+  592  bg
+  593  feh id_127.png
+  594  sudo apt-get install feh
+  595  feh id_127.png
+  596  ls
+  597  sudo apt-get install imagemagick
+  598  convert id_1.png id_2.png id_3.png -quality 100 -units PixelsPerInch -density 72x72 output.pdf
+  599  sudo vim /etc/ImageMagick-6/policy.xml
+  600  convert id_1.png id_2.png id_3.png -quality 100 -units PixelsPerInch -density 72x72 output.pdf
+  601  sudo vim /etc/ImageMagick-6/policy.xml
+  602  convert id_1.png id_2.png id_3.png -quality 100 -units PixelsPerInch -density 72x72 output.pdf
+  603  ls
+  604  evince output.pdf 
+  605  ls
+  606  ls > saida.txt
+  607  vim saida.txt 
+  608  cat saida.txt 
+  609  cat saida.txt | grep -i png
+  610  cat saida.txt | grep -i png > saida_png.txt
+  611  vim saida_png.txt 
+  612  convert id_100.png id_101.png id_102.png id_103.png id_104.png id_105.png id_106.png id_107.png id_108.png id_109.png id_10.png id_110.png id_111.png id_112.png id_113.png id_114.png id_115.png id_116.png id_117.png id_118.png id_119.png id_11.png id_120.png id_121.png id_122.png id_123.png id_124.png id_125.png id_126.png id_127.png id_128.png id_129.png id_12.png id_130.png id_131.png id_132.png id_133.png id_134.png id_135.png id_136.png id_137.png id_138.png id_139.png id_13.png id_140.png id_141.png id_142.png id_143.png id_144.png id_145.png id_146.png id_147.png id_148.png id_149.png id_14.png id_150.png id_151.png id_152.png id_153.png id_154.png id_155.png id_156.png id_157.png id_158.png id_159.png id_15.png id_160.png id_161.png id_162.png id_163.png id_164.png id_165.png id_166.png id_167.png id_168.png id_169.png id_16.png id_170.png id_171.png id_172.png id_173.png id_174.png id_175.png id_176.png id_177.png id_178.png id_179.png id_17.png id_180.png id_181.png id_182.png id_183.png id_184.png id_185.png id_186.png id_187.png id_188.png id_189.png id_18.png id_190.png id_191.png id_192.png id_193.png id_194.png id_195.png id_196.png id_197.png id_198.png id_199.png id_19.png id_1.png id_200.png id_201.png id_202.png id_203.png id_204.png id_205.png id_206.png id_207.png id_208.png id_209.png id_20.png id_210.png id_211.png id_212.png id_213.png id_214.png id_215.png id_216.png id_217.png id_218.png id_219.png id_21.png id_220.png id_221.png id_222.png id_223.png id_224.png id_225.png id_226.png id_227.png id_228.png id_229.png id_22.png id_230.png id_231.png id_232.png id_233.png id_234.png id_235.png id_236.png id_237.png id_238.png id_239.png id_23.png id_240.png id_241.png id_242.png id_243.png id_244.png id_245.png id_246.png id_247.png id_248.png id_249.png id_24.png id_250.png id_251.png id_252.png id_253.png id_254.png id_255.png id_256.png id_257.png id_258.png id_259.png id_25.png id_260.png id_261.png id_262.png id_263.png id_264.png id_265.png id_266.png id_267.png id_268.png id_269.png id_26.png id_270.png id_271.png id_272.png id_273.png id_274.png id_275.png id_276.png id_277.png id_278.png id_279.png id_27.png id_280.png id_281.png id_282.png id_283.png id_284.png id_285.png id_286.png id_287.png id_288.png id_289.png id_28.png id_290.png id_291.png id_292.png id_293.png id_294.png id_295.png id_296.png id_297.png id_298.png id_299.png id_29.png id_2.png id_300.png id_301.png id_302.png id_303.png id_304.png id_305.png id_306.png id_307.png id_308.png id_309.png id_30.png id_310.png id_311.png id_312.png id_313.png id_314.png id_315.png id_316.png id_317.png id_318.png id_319.png id_31.png id_320.png id_321.png id_322.png id_323.png id_324.png id_325.png id_326.png id_327.png id_328.png id_329.png id_32.png id_330.png id_331.png id_332.png id_333.png id_334.png id_335.png id_336.png id_337.png id_338.png id_339.png id_33.png id_340.png id_341.png id_342.png id_343.png id_344.png id_345.png id_346.png id_347.png id_348.png id_349.png id_34.png id_350.png id_351.png id_352.png id_353.png id_354.png id_355.png id_356.png id_357.png id_358.png id_359.png id_35.png id_360.png id_361.png id_362.png id_363.png id_364.png id_365.png id_366.png id_367.png id_368.png id_369.png id_36.png id_370.png id_371.png id_372.png id_373.png id_374.png id_375.png id_376.png id_377.png id_378.png id_379.png id_37.png id_380.png id_381.png id_382.png id_383.png id_384.png id_385.png id_386.png id_387.png id_388.png id_389.png id_38.png id_390.png id_391.png id_392.png id_393.png id_394.png id_395.png id_396.png id_397.png id_398.png id_399.png id_39.png id_3.png id_400.png id_401.png id_402.png id_403.png id_404.png id_405.png id_406.png id_407.png id_408.png id_409.png id_40.png id_410.png id_411.png id_412.png id_413.png id_414.png id_415.png id_416.png id_417.png id_418.png id_419.png id_41.png id_420.png id_42.png id_43.png id_44.png id_45.png id_46.png id_47.png id_48.png id_49.png id_4.png id_50.png id_51.png id_52.png id_53.png id_54.png id_55.png id_56.png id_57.png id_58.png id_59.png id_5.png id_60.png id_61.png id_62.png id_63.png id_64.png id_65.png id_66.png id_67.png id_68.png id_69.png id_6.png id_70.png id_71.png id_72.png id_73.png id_74.png id_75.png id_76.png id_77.png id_78.png id_79.png id_7.png id_80.png id_81.png id_82.png id_83.png id_84.png id_85.png id_86.png id_87.png id_88.png id_89.png id_8.png id_90.png id_91.png id_92.png id_93.png id_94.png id_95.png id_96.png id_97.png id_98.png id_99.png id_9.png -quality 100 -units PixelsPerInch -density 72x72 qr_aluisio.pdf
+  613  evince qr_aluisio.pdf 
+  614  vim saida_png.txt 
+  615  convert id_*.png -mode concatenate -tile 3x -quality 100 -units PixelsPerInch -density 72x72 output.pdf
+  616  magick montage id_*.png -mode concatenate -tile 3x output.png
+  617  sudo apt-get install magick
+  618  montage id_*.png -tile 4x2 tile.pdf
+  619  evince tile.pdf 
+  620  montage id_*.png -tile 4x2 tile.png
+  621  ls
+  622  montage id_*.png -tile 4x2 tile.png
+  623  feh tile-0.png 
+  624  convert tile-*.png -mode concatenate -quality 100 -units PixelsPerInch -density 72x72 QR_CODES_ALUISIO_FINAL.pdf
+  625  convert tile-*.png -quality 100 -units PixelsPerInch -density 72x72 QR_CODES_ALUISIO_FINAL.pdf
+  626  evince QR_CODES_ALUISIO_FINAL.pdf 
+  627  convert tile-*.png -quality 100 -units PixelsPerInch -density 200x200 QR_CODES_ALUISIO_FINAL.pdf
+  628  evince QR_CODES_ALUISIO_FINAL.pdf 
+  629  convert tile-*.png -quality 100 -units PixelsPerInch -density 400x400 QR_CODES_ALUISIO_FINAL.pdf
+  630  evince QR_CODES_ALUISIO_FINAL.pdf 
+  631  feh id_1.png 
+  632  convert id_1.jpg -gravity North -pointsize 30 -annotate +0+100 'Love you mom' temp1.jpg 
+  633  convert id_1.png -gravity North -pointsize 30 -annotate +0+100 'Love you mom' temp1.jpg 
+  634  feh temp1.jpg 
+  635  convert id_1.png -gravity North -pointsize 10 -annotate +0+100 'Love you mom' temp1.jpg 
+  636  feh temp1.jpg 
+  637  convert id_1.png -gravity North -pointsize 10 -annotate +0+200 'Love you mom' temp1.jpg 
+  638  feh temp1.jpg 
+  639  convert id_1.png -gravity North -pointsize 10 -annotate +0+150 'Love you mom' temp1.jpg 
+  640  feh temp1.jpg 
+  641  convert id_1.png -gravity North -pointsize 10 -annotate +0+100 'Love you mom' temp1.jpg 
+  642  feh temp1.jpg 
+  643  convert id_1.png -gravity North -pointsize 10 -annotate +0+110 'Love you mom' temp1.jpg 
+  644  feh temp1.jpg 
+  645  convert id_1.png -gravity North -pointsize 10 -annotate +0+115 'Love you mom' temp1.jpg 
+  646  cat saida.txt 
+  647  convert id_1.png -gravity North -pointsize 10 -annotate +0+115 'Love you mom' temp1.jpg 
+  648  cat saida.txt | awk '{gsub(/./,"_",$1); print $1}'
+  649  cat saida.txt | awk '{gsub(/\./,"_",$1); print $1}'
+  650  cat saida.txt | awk '{gsub(/\./,"_",$1); print $1}' | awk 'BEGIN{FS="_"}{print $2}'
+  651  ls
+  652  cat saida.txt | awk '{gsub(/\./,"_",$1); print $1}' | awk 'BEGIN{FS="_"}{print $0 $2}'
+  653  cat saida.txt | awk '{gsub(/\./,"_",$1); print $1}' | awk 'BEGIN{FS="_"}{print $0"," $2}'
+  654  cat saida.txt | awk '{gsub(/\./,"_",$1); print $1}' | awk 'BEGIN{FS="_"}{print $0"," $2}' | sed 's/_png/.png/g'
+  655  vim file_id.bash
+  656  cat saida.txt | awk '{gsub(/\./,"_",$1); print $1}' | awk 'BEGIN{FS="_"}{print $0"," $2}' | sed 's/_png/.png/g' > file_id.txt
+  657  cat file_id.txt | awk 'BEGIN{FS=",";}{print "sudo mysql -u root -pJ4c4r31 escolax -N -e \"select nome_registrado from registrados where id_chave_registrado="$2"\""}'
+  658  cat file_id.txt | awk 'BEGIN{FS=",";}{print "sudo mysql -u root -pJ4c4r31 escolax -N -e \"select nome_registrado, id_registrado from registrados where id_chave_registrado="$2"\""}'
+  659  cat file_id.txt | awk 'BEGIN{FS=",";}{print "sudo mysql -u root -pJ4c4r31 escolax -N -e \"select nome_registrado, id_registrado from registrados where id_chave_registrado="$2"\""}' > select_registrados.sql
+  660  vim gera_select_registrados.bash
+  661  vim select_registrados.sql 
+  662  chmod u+x select_registrados.sql 
+  663  mv select_registrados.sql select_registrados.bash
+  664  ./select_registrados.bash 
+  665  sudo su
+  666  ifconfig
+  667  sudo apt install net-tools
+  668  ifconfig
+  669  ls
+  670  ifconfig
+  671  cd /home/smejacarei/
+  672  cd ~
+  673  ssh-keygen 
+  674  cd .ssh/
+  675  ls
+  676  cat id_rsa
+  677  :q
+  678  cat id_rsa.pub 
+  679  exit
+  680  cd /var/www/html/
+  681  ls
+  682  cd ..
+  683  cd log/
+  684  cd apache2/
+  685  ls
+  686  tail -f error.log 
+  687  exit
+  688  shutdown -h now
+  689  cd /var/www/html/EscolaLivre/
+  690  ls
+  691  cd ListaDePresenca/
+  692  cd dados/
+  693  cd QR_codes/
+  694  ls
+  695  history
+  696  history > history.txt

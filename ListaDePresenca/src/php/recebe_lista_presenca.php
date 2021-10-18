@@ -8,7 +8,7 @@
 	$fp = fopen('data.txt','w');
 	fwrite($fp, "String");
 	fwrite($fp, $lista_presenca_string);
-	$conn = new mysqli("localhost", $usuario, $senha, $base);
+	$conn = new mysqli("localhost", $username, $pass, $base);
 
     $sql = "insert into presencas(data_tempo, id_registrado, id_evento) values (?,?,1);";
     $stmt = $conn->prepare($sql);

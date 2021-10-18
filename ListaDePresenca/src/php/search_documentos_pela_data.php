@@ -19,8 +19,7 @@ $conn= new mysqli("localhost", $username, $pass, $database);
 
 
 
-$sql="select r.id_chave_registrado as id, t.nome_turma as dsigla, p.data_tempo as ddata, r.nome_registrado as dnome, tv.nome_tipo_vinculo as ddescricao, e.nome_evento as drelevancia from registrados as r, turmas as t, presencas as p, tipos_vinculos as tv, eventos as e, turmas_registrados as tr where p.id_registrado=r.id_chave_registrado and p.id_evento=e.id_chave_evento and t.id_chave_turma=tr.id_turma and r.id_chave_registrado=tr.id_registrado and tv.id_chave_tipo_vinculo=tr.id_tipo_vinculo and data_tempo like '".$data_tempo."%' order by ddata ;";
-
+$sql="select r.id_chave_registrado as id, t.nome_turma as dsigla, p.data_tempo as ddata, r.nome_registrado as dnome, tv.nome_tipo_vinculo as ddescricao, e.nome_evento as drelevancia from registrados as r, turmas as t, presencas as p, tipos_vinculos as tv, eventos as e, turmas_registrados as tr where p.id_registrado=r.id_chave_registrado and p.id_evento=e.id_chave_evento and t.id_chave_turma=tr.id_turma and r.id_chave_registrado=tr.id_registrado and tv.id_chave_tipo_vinculo=tr.id_tipo_vinculo and data_tempo like '".$data_tempo_entrada."%' order by ddata ;";
 
 //$sql="select d.id_chave_documento as id, d.sigla as dsigla, d.data_doc as ddata, d.descricao as ddescricao, d.relevancia as drelevancia, d.photo_filename_documento as dpath, d.alt_foto_jpg as jpg, c.nome_cidade as ncidade, d.nome_documento as dnome, dc.ocorrencia as dcorrencia from cidades as c, documentos as d, documentos_cidades as dc where dc.id_documento=d.id_chave_documento and c.id_chave_cidade=dc.id_cidade and c.cidade_sem_acentuacao like '".$cidade_entrada."%' order by c.nome_cidade asc, dc.ocorrencia desc;";
 

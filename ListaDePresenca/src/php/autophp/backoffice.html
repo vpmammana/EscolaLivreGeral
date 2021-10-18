@@ -1,0 +1,187 @@
+
+<html>
+<head>
+<title>Back-Office do Observatório EscolaBrasil</title>
+<meta http-equiv='Cache-Control' content='no-cache, no-store, must-revalidate'/>
+<meta http-equiv='Pragma' content='no-cache'/>
+<meta http-equiv='Expires' content='0'/>
+
+<meta charset='UTF-8'>
+<style>
+div.cabecalio {
+	background-color: green;
+	border: 1px solid black;
+}
+.sobe_arquivos {
+	padding: 10px;
+	border: 1px solid blue;
+	background-color: orange;
+}
+
+.botoeira {
+	border: 1px solid red;
+        background-color: silver;
+	border-collapse: collapse;
+	font-size: x-large;
+	margin-left: auto;
+	margin-right: auto;
+        padding: 10px;
+}
+
+td {
+	border: 1px solid red;
+	padding: 10px;
+}
+
+</style>
+</head>
+<body onload='carrega_botoes()'>
+<div class='cabecalio'>
+<h1>Back-Office do Observatório EscolaBrasil (Potlatch)</h1>
+</div>
+
+<div class='sobe_arquivos'>
+<p>
+Para subir múltiplos arquivos, use os botões abaixo:
+</p>
+
+<form method='post' action='sobe_multiplos.php' enctype='multipart/form-data'>
+ 
+ <input type='file' name='file[]' id='file' multiple>
+ <input type='submit' name='submit' value='Upload'>
+
+</form>
+</div>
+
+<table class='botoeira'>
+<tr>
+<th colspan=5>Entrada de dados</th>
+</tr>
+<tr>
+<td>Tabelas Independentes</td>
+<td>Um Foreign Key</td>
+<td>Dois Foreign Keys</td>
+<td>Três Foreign Keys</td>
+<td>Quatro Foreign Keys</td>
+<td>Outras</td>
+</tr>
+<tr>
+<td id='fks_0'></td><td id='fks_1'></td><td id='fks_2'></td><td id='fks_3'></td><td id='fks_4'></td><td id='fks_5'></td>
+</tr>
+<tr>
+<td id='n_fks_0'>0</td><td id='n_fks_1'>0</td><td id='n_fks_2'>0</td><td id='n_fks_3'>0</td><td id='n_fks_4'>0</td><td id='n_fks_5'>0</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Left Join View</td>
+<td></td>
+<td></td>
+
+</tr>
+<tr>
+<tr>
+<td></td>
+<td></td>
+<td id='left_join'></td>
+<td></td>
+<td></td>
+
+
+</tr>
+</table>
+<script>
+
+
+
+function carrega_botoes()
+{
+
+
+var txt=document.getElementById('fks_0').innerHTML;
+var conta=document.getElementById('n_fks_0').innerText;
+var valor=parseInt(conta)+1;
+document.getElementById('fks_0').innerHTML=txt+'<input type="button" value="eventos" onclick="Abre_insere(\'insere_eventos.php?offset=0&limit=50&campo_busca=&valor_busca=\')"/><input  type="button" value="Ver Def." style="font-size: x-small; color:white; background-color: blue; border: 1px solid black" onclick="Abre_VerDef(\'escolax\',\'eventos\')"/><br>';
+document.getElementById('n_fks_0').innerText=valor;
+
+
+var txt=document.getElementById('fks_2').innerHTML;
+var conta=document.getElementById('n_fks_2').innerText;
+var valor=parseInt(conta)+1;
+document.getElementById('fks_2').innerHTML=txt+'<input type="button" value="presencas" onclick="Abre_insere(\'insere_presencas.php?offset=0&limit=50&campo_busca=&valor_busca=\')"/><input  type="button" value="Ver Def." style="font-size: x-small; color:white; background-color: blue; border: 1px solid black" onclick="Abre_VerDef(\'escolax\',\'presencas\')"/><br>';
+document.getElementById('n_fks_2').innerText=valor;
+
+
+var txt2=document.getElementById('left_join').innerHTML;
+document.getElementById('left_join').innerHTML=txt2+'<input type="button" value="join: presencas" onclick="Abre_insere(\'join_presencas.php\')"/><br>';
+
+			
+
+var txt=document.getElementById('fks_0').innerHTML;
+var conta=document.getElementById('n_fks_0').innerText;
+var valor=parseInt(conta)+1;
+document.getElementById('fks_0').innerHTML=txt+'<input type="button" value="registrados" onclick="Abre_insere(\'insere_registrados.php?offset=0&limit=50&campo_busca=&valor_busca=\')"/><input  type="button" value="Ver Def." style="font-size: x-small; color:white; background-color: blue; border: 1px solid black" onclick="Abre_VerDef(\'escolax\',\'registrados\')"/><br>';
+document.getElementById('n_fks_0').innerText=valor;
+
+
+var txt=document.getElementById('fks_0').innerHTML;
+var conta=document.getElementById('n_fks_0').innerText;
+var valor=parseInt(conta)+1;
+document.getElementById('fks_0').innerHTML=txt+'<input type="button" value="tipos_vinculos" onclick="Abre_insere(\'insere_tipos_vinculos.php?offset=0&limit=50&campo_busca=&valor_busca=\')"/><input  type="button" value="Ver Def." style="font-size: x-small; color:white; background-color: blue; border: 1px solid black" onclick="Abre_VerDef(\'escolax\',\'tipos_vinculos\')"/><br>';
+document.getElementById('n_fks_0').innerText=valor;
+
+
+var txt=document.getElementById('fks_0').innerHTML;
+var conta=document.getElementById('n_fks_0').innerText;
+var valor=parseInt(conta)+1;
+document.getElementById('fks_0').innerHTML=txt+'<input type="button" value="turmas" onclick="Abre_insere(\'insere_turmas.php?offset=0&limit=50&campo_busca=&valor_busca=\')"/><input  type="button" value="Ver Def." style="font-size: x-small; color:white; background-color: blue; border: 1px solid black" onclick="Abre_VerDef(\'escolax\',\'turmas\')"/><br>';
+document.getElementById('n_fks_0').innerText=valor;
+
+
+var txt=document.getElementById('fks_3').innerHTML;
+var conta=document.getElementById('n_fks_3').innerText;
+var valor=parseInt(conta)+1;
+document.getElementById('fks_3').innerHTML=txt+'<input type="button" value="turmas_registrados" onclick="Abre_insere(\'insere_turmas_registrados.php?offset=0&limit=50&campo_busca=&valor_busca=\')"/><input  type="button" value="Ver Def." style="font-size: x-small; color:white; background-color: blue; border: 1px solid black" onclick="Abre_VerDef(\'escolax\',\'turmas_registrados\')"/><br>';
+document.getElementById('n_fks_3').innerText=valor;
+
+
+}
+
+function Abre_insere(codigo_php){
+
+
+	
+var w=window.open("","Insere_backoffice_hiper","width=900 height=600");
+w.document.body.innerHTML="<div id='aguarde_inicio' style='position: absolute; left: 50%; top: 50%; font-size: 50px; padding: 10px; color: black; border: 10px solid black; background-color: yellow; '>AGUARDE</div>";
+
+setTimeout(
+function(){
+           var resposta="";
+           var url=codigo_php;
+           var oReq=new XMLHttpRequest();
+           oReq.open("GET", url, false);
+           oReq.onload = function (e) {
+                     resposta=oReq.responseText;
+                     w.document.write(resposta);
+                     }
+           oReq.send();
+}, 300);
+}
+
+function Abre_VerDef(banco,tabela){
+
+var w=window.open("","EstruturaDaTabela","width=900 height=600");
+           var resposta="";
+           var url="verdef.php?banco="+banco+"&tabela="+tabela;
+           var oReq=new XMLHttpRequest();
+           oReq.open("GET", url, false);
+           oReq.onload = function (e) {
+                     resposta=oReq.responseText;
+                     w.document.write(resposta);
+                     }
+           oReq.send();
+}
+</script>
+</body>
+</html>
+

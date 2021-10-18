@@ -1,0 +1,1 @@
+sudo mysql -u root -pJ4c4r31 escolax -N -e "select id_chave_registrado, nome_registrado, nome_turma from registrados, turmas, turmas_registrados where id_chave_registrado=id_registrado and id_chave_turma=id_turma" | sed 's/\t/,/g' | awk 'BEGIN{FS=",";}{print "qrencode -m 10 -o id_"$1".png \""$3"-"$1"-"$2"\" "}'

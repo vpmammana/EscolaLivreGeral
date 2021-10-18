@@ -1,0 +1,2 @@
+$sql="select r.id_chave_registrado as id, t.nome_turma as dsigla, p.data_tempo as ddata, r.nome_registrado as dnome, tv.nome_tipo_vinculo as ddescricao, e.nome_evento as drelevancia from registrados as r, turmas as t, presencas as p, tipos_vinculos as tv, eventos as e, turmas_registrados as tr where p.id_registrado=r.id_chave_registrado and p.id_evento=e.id_chave_evento and t.id_chave_turma=tr.id_turma and r.id_chave_registrado=tr.id_registrado and tv.id_chave_tipo_vinculo=tr.id_tipo_vinculo and nome_registrado like '".$nome."%' order by ddata ;";
+

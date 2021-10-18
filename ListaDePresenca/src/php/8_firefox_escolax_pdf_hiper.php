@@ -104,23 +104,23 @@ window.addEventListener('load', function(){
 												console.log("tecla: "+isArrowHomeEnd(code));
 											}
 									);
-				document.getElementById("search_cidade").addEventListener('keyup',
+				document.getElementById("search_turma").addEventListener('keyup',
 									    function (e11)
 											{
 												var keyCode = e11.keyCode;
 												var code = (keyCode ? keyCode : e11.which);
-												var itz= document.getElementById("search_cidade").value;
-												if (!isArrowHomeEnd(code) && large_enough(itz)) {keyBusca("cidade");}
+												var itz= document.getElementById("search_turma").value;
+												if (!isArrowHomeEnd(code) && large_enough(itz)) {keyBusca("turma");}
 												else { if (!large_enough(itz)){limpa_barras();}}
 
 											}
 									);
-				document.getElementById("search_cidade").addEventListener('blur',
+				document.getElementById("search_data").addEventListener('keyup',
 								    function (e12)
 										{
-											document.getElementById("search_cidade").value="";
+											document.getElementById("search_turma").value="";
 											console.log("blur: "+flag_carregando+" conta_disparo: "+conta_disparo);
-											keyBusca("nome");
+											keyBusca("data");
 										}
 									);
 
@@ -141,7 +141,7 @@ return boole;
 }
 
 function keyBusca(tipo) { // trata os eventos de keyup nos text de busca
-console.log("catso: "+flag_carregando+" conta_disparo: "+conta_disparo);
+console.log("ptz: "+flag_carregando+" conta_disparo: "+conta_disparo);
 if (flag_carregando==0) 
 		{
 				flag_carregando=1; 
@@ -175,12 +175,16 @@ if (flag_carregando==0)
 						{
 								console.log("tipao: "+tipo);
 								var itz=document.getElementById("search_"+tipo).value;
-								if (tipo=="cidade")
+								if (tipo=="turma")
 									{
 										if (large_enough(itz)){carrega_dados(tipo,document.getElementById("search_"+tipo).value);}
 										else {conta_disparo--; flag_carregando=0;}
 									}								
 									if (tipo=="nome")
+									{
+										carrega_dados(tipo,document.getElementById("search_"+tipo).value);
+									}
+								if (tipo=="data")
 									{
 										carrega_dados(tipo,document.getElementById("search_"+tipo).value);
 									}
@@ -200,8 +204,8 @@ if (eh_mobile) {alert("ainda não disponível para mobile");return;}
 else
 {
 		   if (tipo=="nome") {var url='search_documentos_pelo_nome.php?banco='+banco_de_dados+'&nome='+texto_busca;}
-		   if (tipo=="cidade") {var url='search_documentos_pela_cidade.php?banco='+banco_de_dados+'&cidade='+texto_busca; console.log("texto: "+texto_busca);}
-		   if (tipo=="palavra") {var url='search_documentos_pela_palavra.php?palavra='+texto_busca;}
+		   if (tipo=="turma") {var url='search_documentos_pela_turma.php?banco='+banco_de_dados+'&turma='+texto_busca; console.log("texto: "+texto_busca);}
+		   if (tipo=="data") {var url='search_documentos_pela_data.php?banco='+banco_de_dados+'&data_tempo='+texto_busca;}
 } 
            var oReq=new XMLHttpRequest();
            oReq.open("GET", url, false);
@@ -768,13 +772,13 @@ input[type=button] {
 <table class='padrao'>
 	<tr>
 		<th  class='padrao'>
-		Por título
+		Por nome da criança
 		</th>
 		<th  class='padrao'>
-		Por cidade
+		Por turma
 		</th>
 		<th  class='padrao'>
-		Por palavra
+		Por data
 		</th>
 	</tr>
 	<tr>
@@ -782,10 +786,10 @@ input[type=button] {
 		<input id='search_nome' type='text' placeholder='Entre título aqui' />
 		</td>
 		<td  class='padrao'>
-		<input id='search_cidade'  type='text' placeholder='Entre cidade aqui' />
+		<input id='search_turma'  type='text' placeholder='Entre turma aqui (min. 3 caracteres)' />
 		</td>
 		<td  class='padrao'>
-		<input  type='text' placeholder='Entre palavra aqui'/>
+		<input id='search_data' type='text' placeholder='Entre AAAA-MM-DD aqui'/>
 
 		</td>
 	</tr>
@@ -794,7 +798,7 @@ input[type=button] {
 		<input type='button' value='busca' onclick='carrega_dados(\"nome\",document.getElementById(\"search_nome\").value);'>
 		</td>
 		<td  class='padrao'>
-		<input type='button' value='busca'>
+		<input type='button' value='busca' onclick='carrega_dados(\"turma\",document.getElementById(\"search_turma\").value >
 		</td>
 		<td  class='padrao'>
 		<input type='button' value='busca'>
