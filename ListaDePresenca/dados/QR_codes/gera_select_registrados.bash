@@ -1,1 +1,0 @@
-cat file_id.txt | awk 'BEGIN{FS=",";}{print "mysql -u root -pJ4c4r31 escolax -N -e \"select nome_registrado, id_chave_registrado from registrados where id_chave_registrado="$2"\" | sed \"s/\\t/,/g\""}' > select_registrados.sql
