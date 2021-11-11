@@ -4701,8 +4701,8 @@ oReq.send();
 DROP DATABASE IF EXISTS def_interface;
 CREATE DATABASE def_interface CHARACTER SET utf8mb4 COLLATE utf8mb4_swedish_ci;
 USE def_interface;
-CREATE USER 'theboard'@'localhost' IDENTIFIED BY 'aerofolio';
-GRANT ALL PRIVILEGES ON def_interface.* TO 'theboard'@'localhost';
+CREATE USER 'quem'@'localhost' IDENTIFIED BY 'senha';
+GRANT ALL PRIVILEGES ON def_interface.* TO 'quem'@'localhost';
 CREATE TABLE definicoes (id_chave_definicao int not null auto_increment, banco_sql varchar(2000), autophp_dir varchar(100));
 INSERT INTO definicoes (autophp_dir) values ('dummy');
 </code>
